@@ -4,7 +4,7 @@ A professional end-to-end Formula 1 Analytics Platform built using modern Data E
 
 ## 🚀 Tech Stack
 
-- Python 
+- Python
 - PostgreSQL
 - FastF1 API
 - Jolpica Ergast API
