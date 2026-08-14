@@ -46,7 +46,7 @@ F1-Analytics-Platform
 - Driver Dataset
 - Constructor Dataset 
 - Circuit Dataset
-- Season Dataset
+- Season Dataset 
 - Data Exploration Notebook
 
 ## 🚧 Upcoming
