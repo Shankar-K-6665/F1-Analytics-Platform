@@ -3,7 +3,7 @@
 A professional end-to-end Formula 1 Analytics Platform built using modern Data Engineering, Business Intelligence, Machine Learning, and AI technologies.
 
 ## 🚀 Tech Stack
-
+ 
 - Python 
 - PostgreSQL
 - FastF1 API
