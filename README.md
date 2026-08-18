@@ -19,7 +19,7 @@ A professional end-to-end Formula 1 Analytics Platform built using modern **Data
 
 ---
 
-```text
+
 ## 📂 Project Structure
 
 
