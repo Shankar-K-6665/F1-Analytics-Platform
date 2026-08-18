@@ -19,6 +19,7 @@ A professional end-to-end Formula 1 Analytics Platform built using modern **Data
 
 ---
 
+```text
 ## 📂 Project Structure
 
 
@@ -61,6 +62,7 @@ F1-Analytics-Platform/
 └── requirements.txt 
 
 
+```text 
 ## 📈 Current Status
 
 Project Setup                 ✅
