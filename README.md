@@ -1,10 +1,12 @@
-# 🏎️ Formula 1 Analytics Platform 
+# 🏎️ Formula 1 Analytics Platform
 
-A professional end-to-end Formula 1 Analytics Platform built using modern Data Engineering, Business Intelligence, Machine Learning, and AI technologies.
+A professional end-to-end Formula 1 Analytics Platform built using modern **Data Engineering, Business Intelligence, Machine Learning, and AI technologies**.
+
+---
 
 ## 🚀 Tech Stack
- 
-- Python 
+
+- Python
 - PostgreSQL
 - FastF1 API
 - Jolpica Ergast API
@@ -15,8 +17,11 @@ A professional end-to-end Formula 1 Analytics Platform built using modern Data E
 - Machine Learning
 - Git & GitHub
 
+---
+
 ## 📂 Project Structure
 
+```text
 F1-Analytics-Platform/
 │
 ├── data/
@@ -55,51 +60,9 @@ F1-Analytics-Platform/
 ├── README.md
 └── requirements.txt
 
-## 🗄️ PostgreSQL Data Warehouse
-fact_race_result
-       │
-       ├── race_id ────────→ dim_race
-       ├── driver_id ──────→ dim_driver
-       └── constructor_id ─→ dim_constructor
-
-## 🔄 ETL Pipeline
-
- ## Extraction
-
-- Python scripts extract:
-
-   Drivers
-   Constructors
-   Circuits
-   Seasons
-   Races
-   Race Results
-
-- Data is stored under:
-
-    data/raw/
-    Transformation
-
-- Pandas is used for:
-
-    Data type conversion
-    Column transformation
-    Duplicate removal
-    Missing-value handling
-    Data preparation
-    Loading
-
-## SQLAlchemy and PostgreSQL are used to load the processed data into the warehouse.
-
-- The race-result ETL validates:
-
-    Race relationships       ✅
-    Driver relationships     ✅
-    Constructor relationships ✅
-
 ## 📈 Current Status
 
--Project Setup                ✅
+Project Setup                 ✅
 F1 API Extraction             ✅
 Raw Data Generation           ✅
 PostgreSQL Database           ✅
@@ -117,4 +80,18 @@ Advanced Analytics            ⏳
 Machine Learning              ⏳
 Streamlit Application         ⏳
 
----
+## 🎯 Project Goal
+
+Data Extraction
+      ↓
+Data Transformation
+      ↓
+PostgreSQL Data Warehouse
+      ↓
+SQL Analytics
+      ↓
+Power BI
+      ↓
+Machine Learning
+      ↓
+Streamlit Application
